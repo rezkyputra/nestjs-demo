@@ -13,6 +13,6 @@ export class BookEntity {
     @Column('text') content: string;
 
     @Column('text') writer: string;
-    
+
     @Column('text') publisher: string;
 }
